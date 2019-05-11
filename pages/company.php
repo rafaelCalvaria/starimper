@@ -4,8 +4,8 @@
         <div class="row p-0 d-none d-lg-block">
             <img src="img/business-banner.jpg" class="top-banner" alt="Nossa Empresa - Starimper">
             <div class="tb-text p-4 text-center text-white position-absolute">
-                <h2>Alguns dos melhores momentos da vida</h2>
-                <p>Simplesmente acontecem dentro de casa, sobre o sofá com as melhores companhias!</p>
+                <h2>A correria do dia a dia, nos impedem de ver</h2>
+                <p>e compreender que as coisas mais importantes da vida, não são coisas...</p>
             </div>
         </div>
 
@@ -24,10 +24,10 @@
     </div>
 
     <div class="container">
-        <img src="img/equipe-starimper-01.jpg" width="80%" height="auto" class="img-fluid mx-auto d-block" alt="">
+        <img src="img/equipe-starimper-01.jpg" width="100%" height="auto" class="img-fluid mx-auto d-block" alt="">
 
         <div class="row py-4 blu-text">
-            <div class="col-12 col-md-6 mb-5">
+            <div class="col-12 col-md-6 mb-1">
                 <h2>O início de um sonho</h2>
                 <p>
                     Nossa empresa não se iniciou de uma forma muito diferente das outras, 
@@ -41,7 +41,13 @@
                     higienização e impermeabilização de carpetes e estofados com excelência à um preço 
                     justo.
                 </p>
+            </div>
 
+            <div class="col-12 col-md-6 mb-3">
+                <img src="img/equipe-starimper-02.jpg" width="80%" height="auto" class="img-fluid mx-auto d-block rounded mt-2" alt="">
+            </div>
+
+            <div class="col-12 col-md-6 mb-1">
                 <h2 class="mt-5">Superando Obstáculos</h2>
                 <p>
                     Em 2012 enfrentamos um grande desafio, a alta dos preços de produtos 
@@ -52,7 +58,13 @@
                     conseguimos manter nossos preços e qualidade do serviço, estando assim, 
                     um passo à frente de nossos concorrentes.                    
                 </p>
+            </div>
 
+            <div class="col-12 col-md-6 mb-3">
+                <img src="img/equipe-starimper-03.jpg" width="80%" height="auto" class="img-fluid mx-auto d-block rounded mt-2" alt="">
+            </div>
+
+            <div class="col-12 col-md-6 mb-1">
                 <h2 class="mt-5">Novas Conquistas</h2>
                 <p>
                     Em 2016, nossa empresa, que até então funcionava na residência de nosso fundador, 
@@ -61,7 +73,13 @@
                     Foi uma grande conquista, não só para nossa equipe, mas também para nossos clientes, 
                     que puderam ser atendidos de uma forma ainda mais profissional.
                 </p>
+            </div>
 
+            <div class="col-12 col-md-6 mb-3">
+                <img src="img/equipe-starimper-04.jpg" width="80%" height="auto" class="img-fluid mx-auto d-block rounded mt-2" alt="">
+            </div>
+
+            <div class="col-12 col-md-6 mb-1">
                 <h2 class="mt-5">Pequenos Imprevistos</h2>
                 <p>
                     Em 2019, frente à uma solicitação realizada por meio jurídico, um de nossos 
@@ -77,13 +95,11 @@
                 </p>
             </div>
 
-            <div class="col-12 col-md-6 mb-5">
-                
+            <div class="col-12 col-md-6 mb-3">
+                <img src="img/equipe-starimper-05.jpg" width="80%" height="auto" class="img-fluid mx-auto d-block rounded mt-2" alt="">
             </div>
+
         </div>
 
     </div>
-
-
-
 </div>
