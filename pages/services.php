@@ -35,31 +35,31 @@
             <div class="col-12 col-md-6 mb-5">
                 <img src="img/img-carpetes.jpg" class="img-fluid" alt="">
                 <h2>Carpetes</h2>
-                <p>Realizamos uma limpeza profunda em seu estofado eliminando fungos, bactérias e ácaros que vivem e se proliferam nestes locais.</p>
+                <p>Temos diversas máquinas, equipamentos especializados para restaurar a vida do seu carpete em sua residência ou empresa.</p>
             </div>
 
             <div class="col-12 col-md-6 mb-5">
                 <img src="img/img-colchoes.jpg" class="img-fluid" alt="">
                 <h2>Colchões</h2>
-                <p>Realizamos uma limpeza profunda em seu estofado eliminando fungos, bactérias e ácaros que vivem e se proliferam nestes locais.</p>
+                <p>Temos produtos específicos para a remoção e eliminação de ácaros, bactérias e resíduos, trazendo seu colchão de volta à vida.</p>
             </div>
 
             <div class="col-12 col-md-6 mb-5">
                 <img src="img/img-impermeabilizacao.jpg" class="img-fluid" alt="">
                 <h2>Impermeabilização</h2>
-                <p>Realizamos uma limpeza profunda em seu estofado eliminando fungos, bactérias e ácaros que vivem e se proliferam nestes locais.</p>
+                <p>O processo de impermeabilização cria uma camada na superfície do estofado, evitando que líquidos causem manchas ao tecido. </p>
             </div>
 
             <div class="col-12 col-md-6 mb-5">
                 <img src="img/img-veiculos.jpg" class="img-fluid" alt="">
                 <h2>Estofamento de Veículos</h2>
-                <p>Realizamos uma limpeza profunda em seu estofado eliminando fungos, bactérias e ácaros que vivem e se proliferam nestes locais.</p>
+                <p>Com a higienização e impermeabilização do estofamento de seu veículo, você garante aquela sensação de carro novo por muito mais tempo.</p>
             </div>
 
             <div class="col-12 col-md-6 mb-5">
                 <img src="img/img-cinema.jpg" class="img-fluid" alt="">
                 <h2>Auditórios, Cinemas e Teatros</h2>
-                <p>Realizamos uma limpeza profunda em seu estofado eliminando fungos, bactérias e ácaros que vivem e se proliferam nestes locais.</p>
+                <p>Estamos preparados para atender grandes demandas como cinemas, auditórios, teatros e salas de reuniões empresariais.</p>
             </div>
 
         </div>
