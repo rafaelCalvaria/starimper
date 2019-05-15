@@ -24,16 +24,18 @@
         <div class="row py-4 blu-text">
             <div class="col-12 col-md-5 mb-5">
                 <h3>Encontre-nos!</h3>
-                <p>ENDEREÇO:<br />R Cap. Carlos Malheiro Oetterer, 270,<br />Jd Santa Rosália, Sorocaba-SP.<br />CEP: 18035-095</p>
-                <p>TELEFONES:<br />(15) 3021-9193<br />(15) 3034-0866<br />(15) 9 9855-4920</p>
-                <p>ATENDIMENTO:<br>Segunda à Sexta<br />8hs às 18hs</p>
+                <p>ENDEREÇO:<br /><span class="small-icon pin-map mr-1 float-left mb-5 mt-1"></span> R Cap. Carlos Malheiro Oetterer, 270,<br />Jd Santa Rosália, Sorocaba-SP.<br />CEP: 18035-095</p>
+                <p>TELEFONES:<br />
+                <span class="small-icon telephone mr-1 float-left"></span> (15) 3034-0866<br />
+                <span class="small-icon whatsapp mr-1 float-left"></span> (15) 9 9855-4920</p>
+                <p>ATENDIMENTO:<br><span class="small-icon clock mr-1 float-left mb-5 mt-1"></span> Segunda à Sexta<br />8hs às 18hs</p>
             </div>
 
             <div class="col-12 col-md-7 mb-5">
                 <h3>Entre em contato!</h3>
                 <p>Responderemos o mais rápido possível!</p>
 
-                <form form class="needs-validation" novalidate>
+                <form form class="needs-validation" novalidate action="../common_layout/sendMail.php">
                     <div class="form-row">
 
                         <div class="form-group col-md-4">
@@ -90,9 +92,7 @@
                 </form>
             </div>
         </div>
-
     </div>
-
 
 
 </div>

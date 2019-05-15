@@ -13,7 +13,7 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <h3 class="mb-0 mt-3">Entre em contato</h3>
                 <span class="small-icon telephone mr-1 float-left mb-1 mt-1"></span>
-                <p>(15) 3021-9193</p>
+                <p>(15) 3034-0866</p>
                 <span class="small-icon whatsapp mr-1 float-left mb-1 mt-1"></span>
                 <p>(15) 9 9855-4920</p>
                 <span class="small-icon email mr-1 float-left mb-1 mt-1"></span>
