@@ -178,6 +178,25 @@ h3 {
 
 // Layout elements definitions -----------------------------------------------------
 
+.whatsapp-talk {
+    position: fixed;
+    width: 250px;
+    height: 40px;
+    z-index: 9999;
+    white-space: nowrap;
+    background-color: #008000;
+    text-align: center;
+    font-weight: 600;
+    line-height: 40px;
+    border-radius: 5px;
+    right: 4%;
+    bottom: 5%;
+
+    &:hover {
+        background-color: #006000;
+        text-decoration: none;
+    }
+}
 
 // Footer elements definitions -----------------------------------------------------
 footer {
