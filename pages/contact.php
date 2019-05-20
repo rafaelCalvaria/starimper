@@ -20,7 +20,8 @@
     </div>
 
     <div class="container">
-
+            <a class="whatsapp-talk text-white" href="https://api.whatsapp.com/send?l=pt_br&phone=5515998554920" target="_blank"> Fale agora mesmo!</a>
+        
         <div class="row py-4 blu-text">
             <div class="col-12 col-md-5 mb-5">
                 <h3>Encontre-nos!</h3>
