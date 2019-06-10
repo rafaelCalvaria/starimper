@@ -17,7 +17,7 @@
     <div class="container bg-white">
         <div class="row text-center py-4 pt-5 blu-text">
             <div class="col">
-                <h1>A sua Starimper</h1>
+                <h1 class="title">A sua Starimper</h1>
                 <p>Há mais de 9 anos superando obstáculos,<br/>e garantindo o melhor serviço na região de Sorocaba!
             </div>
         </div>
@@ -28,7 +28,7 @@
 
         <div class="row py-4 blu-text">
             <div class="col-12 col-md-6 mb-1">
-                <h2>O início de um sonho</h2>
+                <h2 class="title">O início de um sonho</h2>
                 <p>
                     Nossa empresa não se iniciou de uma forma muito diferente das outras, 
                     era um sonho bonito que sempre nos levava a imaginar como seriam as nossas vidas 
@@ -48,7 +48,7 @@
             </div>
 
             <div class="col-12 col-md-6 mb-1">
-                <h2 class="mt-5">Superando Obstáculos</h2>
+                <h2 class="mt-5 title">Superando Obstáculos</h2>
                 <p>
                     Em 2012 enfrentamos um grande desafio, a alta dos preços de produtos 
                     e equipamentos, os quais utilizavamos para executar os serviços, nos 
@@ -65,7 +65,7 @@
             </div>
 
             <div class="col-12 col-md-6 mb-1">
-                <h2 class="mt-5">Novas Conquistas</h2>
+                <h2 class="mt-5 title">Novas Conquistas</h2>
                 <p>
                     Em 2016, nossa empresa, que até então funcionava na residência de nosso fundador, 
                     passou a ter seu primeiro escritório na Vila Santana.
@@ -80,7 +80,7 @@
             </div>
 
             <div class="col-12 col-md-6 mb-1">
-                <h2 class="mt-5">Pequenos Imprevistos</h2>
+                <h2 class="mt-5 title">Pequenos Imprevistos</h2>
                 <p>
                     Em 2019, frente à uma solicitação realizada por meio jurídico, um de nossos 
                     concorrentes solicitou a mudança de nosso nome fantasia SOIMPER, alegando que 
