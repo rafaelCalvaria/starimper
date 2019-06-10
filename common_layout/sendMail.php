@@ -1,6 +1,6 @@
 <?php
   //Email para envio do form
-  $for = "rafaelcalvaria@gmail.com";
+  $for = "contato@starimper.com.br";
 
   //2 - Resgate de dados do form
   $name = $_POST['inputName'];
@@ -28,4 +28,10 @@
   $headers .= "MIME-Version: 1.0\n";
  
     mail($for, $subject, $mailBody, $headers);  //função que faz o envio do email.
+
+    if (mail ($for, $subject, $mailBody, $headers){ 
+      echo "</b>E-Mail enviado com sucesso!</b>"; 
+      } 
+      else{ 
+      echo "</b>Falha no envio do E-Mail!</b>"; } 
 ?>
