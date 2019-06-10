@@ -35,12 +35,69 @@ mail($for, $subject, $mailBody, $headers);  //função que faz o envio do email.
 <html lang="pt-br">
 
 <head>
-  <?php require_once "head.php"; ?>
+   <!-- Google Analytics Acompanhamento -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140491285-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-140491285-1');
+    </script>
+    
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.4.3.1.min.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="../styles/css/main.css" type="text/css" charset="utf-8">
   <title>Starimper - Contato</title>
 </head>
 
 <body id="home">
-  <?php require_once "navigation.php"; ?>
+<nav class="navbar position-absolute navbar-expand-lg navbar-dark d-none d-lg-block d-xl-block">
+    <div class="container">
+        <a class="navbar-brand" href="/">
+            <span class="logostarimper"></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-0 font-weight-normal">
+                <li class="nav-item"><a class="nav-link" href="../index.php">HOME</a></li>
+                <li class="nav-item"><a class="nav-link" href="../servicos.php">SERVIÇOS</a></li>
+                <li class="nav-item"><a class="nav-link" href="../empresa.php">EMPRESA</a></li>
+                <li class="nav-item"><a class="nav-link" href="../fale-conosco.php">FALE CONOSCO</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<nav class="navbar position-absolute navbar-expand-lg bg-black navbar-dark d-sm-block d-md-block d-lg-none d-xl-none">
+    <div class="container">
+        <a class="navbar-brand" href="/">
+            <span class="logostarimper"></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-0 font-weight-normal">
+                <li class="nav-item"><a class="nav-link" href="../index.php">HOME</a></li>
+                <li class="nav-item"><a class="nav-link" href="../servicos.php">SERVIÇOS</a></li>
+                <li class="nav-item"><a class="nav-link" href="../empresa.php">EMPRESA</a></li>
+                <li class="nav-item"><a class="nav-link" href="../fale-conosco.php">FALE CONOSCO</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
 
   <div class="container bg-white">
     <div class="row text-center py-4 pt-5 blu-text">
