@@ -35,17 +35,22 @@ mail($for, $subject, $mailBody, $headers);  //função que faz o envio do email.
 <html lang="pt-br">
 
 <head>
-  <?php require_once "common_layout/head.php"; ?>
+  <?php require_once "head.php"; ?>
   <title>Starimper - Obrigado</title>
 </head>
 
-<body id="home">
+<body>
+  <?php require_once "navigation.php"; ?>
+
   <div class="row blu-text">
     <div class="col">
       <h2 class="mt-5 title">Obrigado pelo Contato!</h2>
       <p class="mt-4">Assim que possível, retornaremos!</p>
     </div>
   </div>
+  <?php require_once "scripts.php"; ?>
+  <?php require_once "footer.php"; ?>
+
 </body>
 
 </html>
