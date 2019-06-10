@@ -36,26 +36,26 @@
                 <h3>Entre em contato!</h3>
                 <p>Responderemos o mais rápido possível!</p>
 
-                <form form class="needs-validation" novalidate action="../common_layout/sendMail.php" method="POST">
+                <form class="needs-validation" method="POST" action="sendMail.php" >
                     <div class="form-row">
 
                         <div class="form-group col-md-4">
                             <label for="inputName">Nome</label>
-                            <input type="text" class="form-control" id="inputName" placeholder="Seu nome" required>
+                            <input name="inputName" type="text" class="form-control" id="inputName" placeholder="Seu nome" required>
                             <div class="valid-feedback">Parece ok!</div>
                             <div class="invalid-feedback">Informe seu nome.</div>
                         </div>
 
                         <div class="form-group col-md-4">
                             <label for="inputEmail">Email</label>
-                            <input type="email" class="form-control" id="inputEmail" placeholder="Seu email" required>
+                            <input name="inputEmail" type="email" class="form-control" id="inputEmail" placeholder="Seu email" required>
                             <div class="valid-feedback">Parece ok!</div>
                             <div class="invalid-feedback">Informe um email válido.</div>
                         </div>
 
                         <div class="form-group col-md-4">
                             <label for="inputPhone">Telefone</label>
-                            <input type="tel" class="form-control" id="inputPhone" placeholder="Seu telefone" maxlength="15" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{4,5}$" required>
+                            <input name="inputPhone" type="tel" class="form-control" id="inputPhone" placeholder="Seu telefone" maxlength="15" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{4,5}$" required>
                             <div class="valid-feedback">Parece ok!</div>                                                                
                             <div class="invalid-feedback">Informe um telefone válido.</div>
                         </div>
@@ -64,14 +64,14 @@
 
                     <div class="form-group">
                         <label for="inputAddress">Endereço</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="Rua, número, bairro e cidade" required>
+                        <input name="inputAddress" type="text" class="form-control" id="inputAddress" placeholder="Rua, número, bairro e cidade" required>
                         <div class="valid-feedback">Parece ok!</div>
                         <div class="invalid-feedback">Informe um endereço válido.</div>
                     </div>
 
                     <div class="form-group">
                         <label for="selectSubject">Motivo do Contato</label>
-                        <select class="form-control" id="selectSubject" required>
+                        <select name="selectSubject" class="form-control" id="selectSubject" required>
                             <option value="">Selecione</option>
                             <option value="Orçamento">Orçamento</option>
                             <option value="Dúvida">Dúvida</option>
@@ -84,7 +84,7 @@
 
                     <div class="form-group">
                         <label for="inputMessage">Mensagem</label>
-                        <textarea class="form-control" id="inputMessage" rows="3" required></textarea>
+                        <textarea name="inputMessage" class="form-control" id="inputMessage" rows="3" required></textarea>
                         <div class="valid-feedback">Parece ok!</div>
                         <div class="invalid-feedback">Digite a mensagem que deseja nos enviar.</div>
                     </div>
