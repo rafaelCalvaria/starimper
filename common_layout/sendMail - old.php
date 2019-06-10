@@ -1,6 +1,7 @@
 <?php
   //Email para envio do form
   $for = "rafaelcalvaria@gmail.com";
+  
 
   //2 - Resgate de dados do form
   $name = $_POST['inputName'];

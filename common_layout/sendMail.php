@@ -1,6 +1,7 @@
 <?php
   //Email para envio do form
   $for = "contato@starimper.com.br";
+  
 
   //2 - Resgate de dados do form
   $name = $_POST['inputName'];
