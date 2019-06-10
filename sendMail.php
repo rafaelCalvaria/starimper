@@ -70,10 +70,10 @@ mail($for, $subject, $mailBody, $headers);  //função que faz o envio do email.
 
             <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-0 font-weight-normal">
-                    <li class="nav-item"><a class="nav-link" href="../index.php">HOME</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../servicos.php">SERVIÇOS</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../empresa.php">EMPRESA</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../fale-conosco.php">FALE CONOSCO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.php">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicos.php">SERVIÇOS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="empresa.php">EMPRESA</a></li>
+                    <li class="nav-item"><a class="nav-link" href="fale-conosco.php">FALE CONOSCO</a></li>
                 </ul>
             </div>
         </div>
@@ -90,10 +90,10 @@ mail($for, $subject, $mailBody, $headers);  //função que faz o envio do email.
 
             <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-0 font-weight-normal">
-                    <li class="nav-item"><a class="nav-link" href="../index.php">HOME</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../servicos.php">SERVIÇOS</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../empresa.php">EMPRESA</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../fale-conosco.php">FALE CONOSCO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.php">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicos.php">SERVIÇOS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="empresa.php">EMPRESA</a></li>
+                    <li class="nav-item"><a class="nav-link" href="fale-conosco.php">FALE CONOSCO</a></li>
                 </ul>
             </div>
         </div>
