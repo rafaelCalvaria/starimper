@@ -2,21 +2,21 @@
 
     <div class="row text-center py-4 pt-5 blu-text">
         <div class="col">
-            <h1>Nada como a tranquilidade<br>de saber que tudo está bem!</h1>
-            <p>Em nossos serviços de higienização está inclusa<br>a aplicação de tratamento anti-ácaro.</p>
+            <h1 class="title">Nada como a tranquilidade de saber que tudo está bem!</h1>
+            <p>Em nossos serviços de higienização está inclusa a aplicação de tratamento anti-ácaro.</p>
         </div>
     </div>
 
     <div class="row blu-text">
         <div class="col">
-            <h2 class="mt-5">Sem preocupações com líquidos</h2>
+            <h2 class="mt-5 title">Sem preocupações com líquidos</h2>
             <p class="mt-4">Nosso tratamento Water Block protege seu estofado com a impermeabilização das fibras do tecido.</p>
         </div>
-        <div class="col-5 text-center">
+        <div class="col-md-5 text-center">
             <img class="img-fluid" src="img\baby-sleep.jpg" alt="Starimper - Durma com tranquilidade">
         </div>
         <div class="col">
-            <h2 class="mt-5">Enfim, tudo parece novo, de novo</h2>
+            <h2 class="mt-5 title">Enfim, tudo parece novo, de novo</h2>
             <p class="mt-4">Nossos produtos não maltratam e trazem de volta a sensação de móvel novo ao seu estofado.</p>
         </div>
     </div>
@@ -24,8 +24,8 @@
 </div>
 
 <div class="container-fluid bg-white overflow-hidden">
+<img class="img-fluid" src="img\life-is-short.jpg" alt="Starimper - Durma com tranquilidade">
     <div class="row p-0">
-        <img class="img-fluid" src="img\life-is-short.jpg" alt="Starimper - Durma com tranquilidade">
         <div class="life-texts p-4 text-center text-white position-absolute">
             <h2>A vida é curta demais para lavar o sofá!</h2>
             <p>Aproveite os melhores momentos da vida e deixe o trabalho pesado com a Starimper.</p>

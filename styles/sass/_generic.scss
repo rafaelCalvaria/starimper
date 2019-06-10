@@ -92,11 +92,11 @@ body {
 
 .logostarimper  { 
     background: url(assets/svg-sprites.svg) no-repeat;
-    background-size: 365px, auto;
+    background-size: 323px, auto;
     display: block;
-    width: 245px; 
-    height: 60px;
-    background-position: -141px -78px; 
+    width: 192px; 
+    height: 52px;
+    background-position: -128px -71px; 
 }
 
 .facebook       { background-position: -40px 0; }
@@ -172,7 +172,7 @@ h3 {
     height: auto;
     max-width: 380px;
     right: 0;
-    margin-top: 37%;
+    margin-top: -24%;
     margin-right: 12%;
 }
 
@@ -204,7 +204,33 @@ footer {
     color: $dark-grey;
 }
 
+
 .copyright {
     font-size: 10px;
     color: $grey;
+}
+
+@media only screen and (max-width: 576px) { 
+    .title {       
+        font-size: 26px!important;
+        text-align: center;
+    } 
+
+    p {
+        font-size: 16px;
+    }
+
+    .life-texts {
+        width: 100%!important;
+        margin-top: -53%;
+        margin-right: 0;
+    }
+ }
+
+ @media (min-width: 576px) and (max-width: 767.98px) {
+
+    .life-texts {
+        margin-top: -30%;
+        margin-right: 12%;
+    }
 }

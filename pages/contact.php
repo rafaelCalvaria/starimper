@@ -13,7 +13,7 @@
     <div class="container bg-white">
         <div class="row text-center py-4 pt-5 blu-text">
             <div class="col">
-                <h1>Fale Conosco</h1>
+                <h1 class="title">Fale Conosco</h1>
                 <p>Estamos prontos para atendê-lo!</p>
             </div>
         </div>
@@ -36,7 +36,7 @@
                 <h3>Entre em contato!</h3>
                 <p>Responderemos o mais rápido possível!</p>
 
-                <form form class="needs-validation" novalidate action="../common_layout/sendMail.php">
+                <form form class="needs-validation" novalidate action="../common_layout/sendMail.php" method="POST">
                     <div class="form-row">
 
                         <div class="form-group col-md-4">
