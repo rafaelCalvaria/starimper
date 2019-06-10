@@ -53,8 +53,8 @@ mail($for, $subject, $mailBody, $headers);  //função que faz o envio do email.
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.4.3.1.min.css" type="text/css" charset="utf-8">
-    <link rel="stylesheet" href="../styles/css/main.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.4.3.1.min.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="styles/css/main.css" type="text/css" charset="utf-8">
     <title>Starimper - Contato</title>
 </head>
 
@@ -109,8 +109,8 @@ mail($for, $subject, $mailBody, $headers);  //função que faz o envio do email.
         </div>
     </div>
 
-    <?php require_once "scripts.php"; ?>
-    <?php require_once "footer.php"; ?>
+    <?php require_once "common_layout/scripts.php"; ?>
+    <?php require_once "common_layout/footer.php"; ?>
 </body>
 
 </html>
