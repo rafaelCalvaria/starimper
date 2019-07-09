@@ -1,3 +1,4 @@
 RewriteEngine On
 RewriteCond %{HTTPS} !=on
-RewriteRule ^/?(.*) https://%starimper.com.br/$1 [R,L]
+RewriteCond %{HTTP_HOST} ^www\.starimper\.com\.br [NC]
+RewriteRule ^(.*)$ https://starimper.com.br/$1 [L,R=301]
